@@ -34,7 +34,7 @@
 }
 
 .register {
-    padding: 20px 40px;
+    padding: 20px 10px;
 }
 
 .sign-btn {
@@ -48,7 +48,6 @@
 
 .register a {
     text-decoration: none;
-    margin-left: 2px;
     color: black;
     font-size: 18px;
 }
@@ -105,3 +104,18 @@
 .checkbox{
     padding:10px  25px;
 }
+
+// ----------------------- For Phone -----------
+
+
+@media(max-width:1000px) {
+    .login{
+    
+        top: 200px;
+        width: 50%;
+    }
+    .register .h5,.register a{
+        position: relative;
+        font-size: 1em;
+    }
+    }
