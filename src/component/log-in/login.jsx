@@ -105,7 +105,7 @@ const Login = () => {
 
     return (
         <>
-            <main className="form-signin w-100 m-auto">
+            <main className="login-div w-100 m-auto">
                 <form method='POST' className='login needs-validation' noValidate>
                     <div>
                         <img className="rounded mx-auto d-block mb-4" src={Logo} alt="" width="72" height="57" />
@@ -145,10 +145,10 @@ const Login = () => {
                     <div className='sign-btn'>
                         <Button type="submit" variant='contained' onClick={userlogin}>Sign in</Button>
                     </div>
-                    <div className="text-success">
-                        <hr className="shadow" />
+                    <div className='text-success'>
+                        <hr/>
                     </div>
-                    <div className='register'>
+                    <div className='register-link'>
                         <h5 className='h5'>Don't have an account? <a href="/signin">Register here</a></h5>
                     </div>
                 </form>
